@@ -1,0 +1,40 @@
+# Cache and logs (Symfony3)
+/var/cache/*
+/var/logs/*
+!var/cache/.gitkeep
+!var/logs/.gitkeep
+
+# Parameters
+/symfony/app/config/parameters.yml
+/symfony/app/config/parameters.ini
+
+# Managed by Composer
+/symfony/app/bootstrap.php.cache
+/symfony/var/bootstrap.php.cache
+/symfony/bin/*
+!bin/console
+!bin/symfony_requirements
+/vendor/
+
+# Assets and user uploads
+/web/bundles/
+/web/uploads/
+
+# PHPUnit
+/app/phpunit.xml
+/phpunit.xml
+
+# Build data
+/build/
+
+# Composer PHAR
+/composer.phar
+
+# IDE and OS
+.idea
+.vagrant
+.DS_Store
+Vagrantfile
+
+# Database
+.sql
